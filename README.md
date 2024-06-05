@@ -39,12 +39,10 @@ Develop unit tests for critical components such as the shopping cart, product ca
 
 ### Running the Application
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/srujanhk/Shopping-system/tree/master
-   cd jdbcconnection
-
-2. Run the project
-   ```bash
-   javac Main.java
-   java Main 
+1. keep ur all Java files in one folder let's say src with respect to root folder 
+2. keep MySQL jar directly in root
+3. run below command to compile all Java files to .class along with sql jar in a new folder bin 
+javac -cp mysql-connector-j-8.4.0.jar -d bin src/*.java
+4. then run the Main class
+Which has main method in it using below command 
+Java -cp bin; ./mysql-connector-j-8.4.0.jar org.example.Main
