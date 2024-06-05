@@ -44,5 +44,6 @@ Develop unit tests for critical components such as the shopping cart, product ca
 3. run below command to compile all Java files to .class along with sql jar in a new folder bin 
 javac -cp mysql-connector-j-8.4.0.jar -d bin src/*.java
 4. then run the Main class
-Which has main method in it using below command 
+Which has main method in it using below command
+/bash 
 Java -cp bin; ./mysql-connector-j-8.4.0.jar org.example.Main
