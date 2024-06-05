@@ -35,7 +35,7 @@ Develop unit tests for critical components such as the shopping cart, product ca
 ### Prerequisites
 
 - Java 11 or later
-- Maven or similar build tool
+
 
 ### Running the Application
 
@@ -44,10 +44,7 @@ Develop unit tests for critical components such as the shopping cart, product ca
    git clone https://github.com/srujanhk/Shopping-system/tree/master
    cd jdbcconnection
 
-2. Build the project
+2. Run the project
    ```bash
-   mvn clean install
-
-3. Run the project
-   ```bash
-   java -jar 
+   javac Main.java
+   java Main 
