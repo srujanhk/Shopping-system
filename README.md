@@ -34,7 +34,7 @@ Develop unit tests for critical components such as the shopping cart, product ca
 
 ### Prerequisites
 
-- Java 11 or later
+- Java 8 or later
 
 
 ### Running the Application
